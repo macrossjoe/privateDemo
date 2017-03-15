@@ -1,9 +1,9 @@
-#include <stdio>
-#include <stdlib>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
-  printf "Hello joe!\n");
+	printf ("Hello joe!\n");
   
-  return 0;
+	return 0;
  }

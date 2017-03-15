@@ -1,2 +1,8 @@
+PROJECT=demo
+
 all:
-   gcc -o demo main.c
+	gcc -o $(PROJECT) main.c
+
+clean:
+	rm -rf $(PROJECT)
+
