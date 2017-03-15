@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main(void)
 {
-	printf ("Hello joe!\n");
+	char name[128];
+
+	sprintf(name, "What is your name?\n");
+	printf(name);
+	scanf("%s", name);
+	printf ("Hello %s!\n", name);
   
 	return 0;
  }
