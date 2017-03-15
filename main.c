@@ -9,7 +9,8 @@ int main(void)
 	sprintf(name, "What is your name?\n");
 	printf(name);
 	scanf("%s", name);
-	printf ("Hello %s!\n", name);
-  
+	printf("Hello %s!\n", name);
+  	printf("Good Bye %s\n", name);
+
 	return 0;
- }
+}
