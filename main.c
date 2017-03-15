@@ -10,7 +10,7 @@ int main(void)
 	printf(name);
 	scanf("%s", name);
 	printf("Hello %s!\n", name);
-  	printf("Good Bye %s\n", name);
+  	printf("May the FORCE be with you, %s!\n", name);
 
 	return 0;
 }
