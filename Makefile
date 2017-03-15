@@ -1,7 +1,9 @@
 PROJECT=demo
 
 all:
-	gcc -o $(PROJECT) main.c
+	@echo "building " $(PROJECT) "..."
+	@gcc -o $(PROJECT) main.c
+	@echo "Done."
 
 clean:
 	rm -rf $(PROJECT)
